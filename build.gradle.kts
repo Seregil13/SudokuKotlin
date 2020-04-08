@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.3.61"
+    kotlin("jvm") version "1.3.71"
 }
 
 group = "com.seregil13"
@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+//    implementation("no.tornado:tornadofx:1.7.20")
 }
 
 tasks {

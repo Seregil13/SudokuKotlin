@@ -88,10 +88,3 @@ data class SudokuBoard(val board: Array<CharArray>, val placeholder: Char = '-')
         return result
     }
 }
-
-
-
-
-
-
-
